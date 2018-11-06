@@ -3,3 +3,4 @@ settings.py
 __pycache__
 env
 /env/*
+prophet_28102018_fb.ipynb
