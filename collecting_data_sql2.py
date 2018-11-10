@@ -154,8 +154,7 @@ def main():
     print('Есть данные по следующим тикерам:')   
     for row in result:
         print(row.tick)
-    #     ticker_renew(row.tick)
-    
+        
     tick = input('Введите тикер: ').upper()
     if check_forecast(engine,tick):
         print('Есть прогноз')
